@@ -49,6 +49,7 @@ def scrape_website2():
     id_titles = soup.select('a.kKkQRC')
     id_desc = soup.select('p.caAWyW')
     id_loc = soup.select('span.allowed-location')
+    BASE_URL = 'https://careers.dana-farber.org/'
 
     jobs_indeed = []
 
