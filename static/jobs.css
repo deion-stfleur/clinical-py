@@ -1,0 +1,73 @@
+.list-li {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 12px;
+    width: 29%;
+    min-height: 200px;
+    }
+
+    .list-ul {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .apply-btn {
+        text-decoration: none;
+        color: black;
+        font-size: 23px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .apply-btn-container {
+    width: 95%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+    margin: auto;
+    }
+
+    .shuffle-btn {
+        max-width: 200px;
+        cursor: pointer;
+        margin: auto;
+        background-color: rgb(20, 151, 112);
+        padding: 4px;
+        border-radius: 100px;
+    }
+
+    .loc-badge {
+        background-color: rgb(20, 151, 112);
+        padding: 5px;
+        border-radius: 100px;
+    }
+
+    .loc-badge p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        color: white;
+        padding-left: 12px;
+    }
+
+    .shuffle-text {
+        text-align: center;
+        color: white;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .q-modal {
+        display: none;
+    }
+
